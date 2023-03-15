@@ -145,8 +145,8 @@ var ProfileParameters = map[Profile]string{
 	ProfileNone:                "",
 	ProfileH264Baseline:        "baseline",
 	ProfileH264Main:            "main",
-	ProfileH264High:            "high",
-	ProfileH264ConstrainedHigh: "high",
+	ProfileH264High:            "high422",
+	ProfileH264ConstrainedHigh: "high422",
 }
 
 func VideoProfileResolution(p VideoProfile) (int, int, error) {
