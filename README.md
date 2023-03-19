@@ -9,10 +9,10 @@ as input format and RTMP/HLS as output formats.
 LPMS can be integrated into another service, or run as a standalone service.  To try LPMS as a 
 standalone service, simply get the package:
 ```
-go get -d github.com/livepeer/lpms/cmd/example
+go get -d github.com/eliteprox/lpms/cmd/example
 ```
 
-Go to the lpms root directory at `$GOPATH/src/github.com/livepeer/lpms`. If needed, install the required dependencies; see the Requirements section below. Then build the sample app and run it:
+Go to the lpms root directory at `$GOPATH/src/github.com/eliteprox/lpms`. If needed, install the required dependencies; see the Requirements section below. Then build the sample app and run it:
 
 ```
 go build cmd/example/main.go
@@ -153,7 +153,7 @@ GPU_DEVICE=3 go test --tags=nvidia -run Nvidia
 ```
 
 Aside from the tests themselves, there is a
-[sample program](https://github.com/livepeer/lpms/blob/master/cmd/transcoding/transcoding.go)
+[sample program](https://github.com/eliteprox/lpms/blob/master/cmd/transcoding/transcoding.go)
 that can be used as a reference to the LPMS GPU transcoding API. The sample
 program can select GPU or software processing via CLI flags. Run the sample
 program via:
@@ -189,5 +189,5 @@ Thank you for your interest in contributing to LPMS!
 To get started:
 
 - Read the [contribution guide](doc/contributing.md)
-- Check out the [open issues](https://github.com/livepeer/lpms/issues)
+- Check out the [open issues](https://github.com/eliteprox/lpms/issues)
 - Join the #dev channel in the [Discord](https://discord.gg/uaPhtyrWsF)

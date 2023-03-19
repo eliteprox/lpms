@@ -3,8 +3,8 @@ package core
 import (
 	"context"
 
-	"github.com/livepeer/lpms/segmenter"
-	"github.com/livepeer/lpms/stream"
+	"github.com/eliteprox/lpms/segmenter"
+	"github.com/eliteprox/lpms/stream"
 )
 
 //RTMPSegmenter describes an interface for a segmenter

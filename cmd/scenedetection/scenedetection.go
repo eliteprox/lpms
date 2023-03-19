@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/livepeer/lpms/ffmpeg"
+	"github.com/eliteprox/lpms/ffmpeg"
 )
 
 func validRenditions() []string {

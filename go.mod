@@ -1,4 +1,4 @@
-module github.com/livepeer/lpms
+module github.com/eliteprox/lpms
 
 go 1.12
 

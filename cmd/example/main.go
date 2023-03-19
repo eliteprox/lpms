@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/eliteprox/lpms/core"
+	"github.com/eliteprox/lpms/segmenter"
+	"github.com/eliteprox/lpms/stream"
 	"github.com/golang/glog"
-	"github.com/livepeer/lpms/core"
-	"github.com/livepeer/lpms/segmenter"
-	"github.com/livepeer/lpms/stream"
 	"github.com/livepeer/m3u8"
 )
 

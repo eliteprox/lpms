@@ -5,10 +5,10 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/eliteprox/lpms/segmenter"
+	"github.com/eliteprox/lpms/stream"
 	"github.com/golang/glog"
 	joy4rtmp "github.com/livepeer/joy4/format/rtmp"
-	"github.com/livepeer/lpms/segmenter"
-	"github.com/livepeer/lpms/stream"
 )
 
 var segOptions = segmenter.SegmenterOptions{SegLength: time.Second * 2}

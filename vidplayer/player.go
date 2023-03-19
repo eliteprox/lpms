@@ -16,9 +16,9 @@ import (
 
 	"time"
 
+	"github.com/eliteprox/lpms/stream"
 	"github.com/golang/glog"
 	joy4rtmp "github.com/livepeer/joy4/format/rtmp"
-	"github.com/livepeer/lpms/stream"
 	"github.com/livepeer/m3u8"
 )
 

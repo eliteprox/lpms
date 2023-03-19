@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/eliteprox/lpms/ffmpeg"
+	"github.com/eliteprox/lpms/segmenter"
+	"github.com/eliteprox/lpms/stream"
+	"github.com/eliteprox/lpms/vidlistener"
+	"github.com/eliteprox/lpms/vidplayer"
 	"github.com/golang/glog"
-	"github.com/livepeer/lpms/ffmpeg"
-	"github.com/livepeer/lpms/segmenter"
-	"github.com/livepeer/lpms/stream"
-	"github.com/livepeer/lpms/vidlistener"
-	"github.com/livepeer/lpms/vidplayer"
 	"github.com/livepeer/m3u8"
 
 	joy4rtmp "github.com/livepeer/joy4/format/rtmp"

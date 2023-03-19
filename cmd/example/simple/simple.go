@@ -8,9 +8,9 @@ import (
 	"os"
 	"time"
 
+	"github.com/eliteprox/lpms/core"
+	"github.com/eliteprox/lpms/stream"
 	"github.com/golang/glog"
-	"github.com/livepeer/lpms/core"
-	"github.com/livepeer/lpms/stream"
 )
 
 type exampleStream string

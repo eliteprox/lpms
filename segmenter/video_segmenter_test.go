@@ -20,14 +20,14 @@ import (
 
 	"strings"
 
+	"github.com/eliteprox/lpms/ffmpeg"
+	"github.com/eliteprox/lpms/stream"
+	"github.com/eliteprox/lpms/vidplayer"
 	"github.com/golang/glog"
 	"github.com/livepeer/joy4/av"
 	"github.com/livepeer/joy4/av/avutil"
 	"github.com/livepeer/joy4/format"
 	"github.com/livepeer/joy4/format/rtmp"
-	"github.com/livepeer/lpms/ffmpeg"
-	"github.com/livepeer/lpms/stream"
-	"github.com/livepeer/lpms/vidplayer"
 	"github.com/livepeer/m3u8"
 )
 
